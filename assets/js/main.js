@@ -32,7 +32,7 @@ form.addEventListener("submit", (e) => {
   if (email === "") {
     email_label.innerHTML = "Email cannot be empty";
   } else if (!isValidEmail(email)) {
-    email_label.innerHTML = "Please provide a valid email address!";
+    email_label.innerHTML = "Invalid email address";
   }
 
   if (pass === "") {
